@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Coursework2022</string>
+
+    <string name="movie_name_req">Title <font color='#FF0000'>*</font></string>
+    <string name="movie_year_req">Year <font color='#FF0000'>*</font></string>
+    <string name="movie_genre_req">Genre <font color='#FF0000'>*</font></string>
+    <string name="movie_runtime_req">Run Time <font color='#FF0000'>*</font></string>
+    <string name="movie_director_req">Director <font color='#FF0000'>*</font></string>
+    <string name="movie_writer_req">Writer <font color='#FF0000'>*</font></string>
+    <string name="movie_actor_req">Actor <font color='#FF0000'>*</font></string>
+    <string name="movie_released_req">Released <font color='#FF0000'>*</font></string>
+    <string name="movie_rate_req">Released <font color='#FF0000'>*</font></string>
+    <string name="save">save</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete">delete</string>
+    <string name="search">Search</string>
+    <string name="add_movie">Add Movie</string>
+    <string name="enter_the_actor_s_name_here">Enter the actor\'s name here</string>
+
+</resources>

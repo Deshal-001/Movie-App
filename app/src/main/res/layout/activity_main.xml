@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menudesign"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+
+        android:layout_height="wrap_content">
+        <Button
+            android:backgroundTint="@color/black"
+            android:id="@+id/add_movie_button"
+            android:layout_width="200dp"
+            android:background="@drawable/menu_button_style"
+            android:layout_margin="20dp"
+            android:text="@string/add_movie"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/search_for_movie_button"
+            android:layout_width="200dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/menu_button_style"
+            android:text="Search Movies"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/search_for_actor_button"
+            android:layout_margin="20dp"
+            android:layout_width="200dp"
+            android:text="Search Actors"
+            android:background="@drawable/menu_button_style"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
